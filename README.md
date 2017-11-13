@@ -9,20 +9,27 @@
 6. Web mania
 
 #SPEK:
+
 #Tugas Besar IF3170
+
 #Inteligensia Buatan 2017/2018
+
 ###Aplikasi Web Prediksi Income Per Tahun
+
 ##Pendahuluan
+
 Tugas besar ini dikerjakan secara berkelompok dengan anggota 4-5 orang per kelompok (boleh
 lintas kelas). Silakan isi anggota kelompok pada form ini sebelum Sabtu 11 November 2017 pukul 23.59:
 https://docs.google.com/a/std.stei.itb.ac.id/spreadsheets/d/1w1n3WdeOxTYkiou0vo0R2jiysHk5Kyx6_aI
 pJLHUZDs/edit?usp=sharing.
+
 ##Deskripsi Persoalan
 Mahasiswa diminta untuk membuat sebuah aplikasi web yang dapat memberikan prediksi
 income per tahun berbasis pembelajaran mesin. Aplikasi yang dibuat harus dapat menerima masukan
 berupa semua atribut pada dataset. Silahkan baca CensusIncome.names.txt untuk informasi detilnya.
 Selanjutnya, sistem akan memberikan hasil prediksi berupa >50K atau <=50K. Pelaksanaan tugas ini akan
 dilakukan dalam 2 tahap yaitu eksperimen dan pengembangan aplikasi web.
+
 ###A. Eksperimen untuk mendapatkan model terbaik
 Lakukanlah analisis data, desain skenario eksperimen, dan eksperimen untuk menentukan konfigurasi
 agar didapat model terbaik (dengan semua algoritma pembelajaran yang sudah pernah diberikan di
@@ -41,6 +48,7 @@ memprediksi data pada CencusIncome.test.txt.
 Tugas tahap A dikumpulkan ke asisten saat asistensi berupa hasil download notebook dalam dua format
 yaitu file .ipynb dan pdf. Penamaan file yang dikumpulkan: Tubes2A_[NIM terkecil anggota].zip (misal:
 Tubes2A_13515001.zip yang berisi Tubes2A_13515001.ipynb dan Tubes2A_13515001.pdf).
+
 ###B. Pembangunan aplikasi web yang memanfaatkan model terbaik dari tahap A
 Aplikasi web harus dapat menerima masukan berupa nilai semua atribut, dan memberikan hasil prediksi
 berupa >50K atau <=50K. Aplikasi web ini harus memanfaatkan model terbaik yang didapatkan dari
